@@ -1,0 +1,23 @@
+{
+  "name": "WWWeather",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RayJune/WWWeather.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RayJune/WWWeather/issues"
+  },
+  "homepage": "https://github.com/RayJune/WWWeather#readme",
+  "dependencies": {
+    "request": "^2.73.0"
+  }
+}
