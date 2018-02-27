@@ -1,9 +1,11 @@
 const request = require('request');
 
-const parsedArgv = request('./utlis/getParsedArgv.js');
+const parsedArgv = require('./utlis/getParsedArgv.js');
+
+const encodedAddress = encodeURIComponent(parsedArgv.address);
 
 request({
-  url: 'https://maps.googleapis.com/maps/api/geocode/json?address=1301%20lombard%20street%20phladelpha',
+  url: `https://maps.googleapis.com/maps/api/geocode/json?address=${encodedAddress}`,
   json: true
 }, (error, response, body) => {
   // console.log(JSON.stringify(response, undefined, 2));

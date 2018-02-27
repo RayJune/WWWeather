@@ -13,6 +13,6 @@ const parsedArgv = yargs
   .alias('help', 'h')
   .argv;
 
-console.log(argv);
+// console.log(argv);
 
 module.exports = parsedArgv;
